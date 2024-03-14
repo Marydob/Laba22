@@ -31,7 +31,7 @@ while wrong<3:
     a=random.randint(1,9)
     b=random.randint(1,9)
     c= input(f"{a} + {b} = ")
-    if  int(c)==a+b:
+    if  float(c)==a+b:
         print("Правильно!")
         right += 1
     else:
